@@ -141,6 +141,22 @@
                     }
                 }
             }
+
+            .chats {
+                .userChat {
+                    padding: 10px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                    img {
+                        background-color: aquamarine;
+                        height: 2.8rem;
+                        width: 2.8rem;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
         }
 
         .chatWindow {
