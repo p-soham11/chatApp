@@ -1,15 +1,11 @@
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register"
+/** @format */
+
+import Codes from "./pages/Codes";
+
 import "./style.scss";
 
 function App() {
-
-  return (
-    // <Login />
-    // <Register />
-    <Home />
-  )
+    return <Codes />;
 }
 
-export default App
+export default App;
